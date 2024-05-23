@@ -1,0 +1,14 @@
+{
+    "name": "group3/contact-form",
+    "description": "A contact form package for Laravel",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "YourVendor\\ContactForm\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.0|^9.0"
+    }
+}
